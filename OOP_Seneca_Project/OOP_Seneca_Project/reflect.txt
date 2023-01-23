@@ -1,0 +1,34 @@
+/*
+	==================================================
+	MileStone 5
+	==================================================
+	Name   : Sangwoo Shin
+	ID     : 119294213
+	Email  : sshin36@myseneca,ca
+	Section: NCC
+	Date   : 2022/4/8
+*/
+
+In the mile stone 5, I had to make a variety of functions at AidMan class. At first, in order to use item information 
+in AidMan.cpp file, I needed to add iPrduct pointer array in AidMan class as a data attribute. Moreover, I added 
+'numOfItems' which is integer value about number of items. After adding two data attributes, I created 'allocate'
+function for menu number 7. This function dynamically allocates each array of iProduct pointers to an object of the 
+data class that corresponds to it, depending on whether it is a perishable item or not in a text file. After allocation,
+calling a 'load' function in AidMan, using dynamic dispatch, using a load function of the appropriate class for each array element,
+loaded items throughout the text file. In addition, I created a function called 'list' for menu 1. If there is an description as an argument,
+it only display a list of items which contain the description in the file, and if there are no argument, it shows the whole list,
+and it the user enters the line number, it only shows the specific item. Also I made a fuction 'findSKUIndex', which receives an integer
+flag as an argument, and if 1 is accepted as an argument, it performs a sku number search for deletion, and if 2 is received as an argument,
+it performs a sku number search for update quantity, and then return index number found. Next, I created the remove function, 
+which takes the index number of the information I want to erase as a factor, and then deletes the information and pulls the rest of the information
+one by one to fill in the blanks. The addOrRemove function takes the decision number and index number as an argument, and if the decision number is one, 
+the index number of item entered by the user increases the quantity as much as the user wants, but if the stock is already full, the function does not work. 
+Conversely, if the decision number is 2, it subtracts the amount that the user wants, but if the inventory is already zero, the function does not work.
+In addition, if the user wants to store new item information using the 'add' function, first select whether the item is perishable or not,
+and then add a new item by dynamically assigning it to the object of the appropriate class type.
+The 'sort' function rearranges the list of functions using bubble sorting, and the 'shipOrder' function takes out the items that are ready
+ for delivery and stores them in a new text file, while erasing the information from the original text file.
+Finally, the 'save' function writes line by line into a text file using an output file stream to record changes in the contents of the text file.
+At first, I thought a lot about how to declare data attribute in class due to lack of understanding of polymorphism, but after understanding
+the concept of polymorphism and creating functions one by one, I could experience that all functions in derived class can be used
+by only using base class type of data without class declaration in main.
