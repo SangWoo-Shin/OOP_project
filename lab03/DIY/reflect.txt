@@ -1,0 +1,14 @@
+// Workshop3 part 2
+//Name: SangWoo Shin
+// ID: 119294213
+// Email: sshin36@myseneca.ca
+//Section Information Code : NCC
+
+Through the workshop 3, I used class to store variety of variables and member function. The class is similiar with the structure.
+However, the difference between structures and classes is that structures store variables in public as default settings.
+ On the other hand, in the class, all variables are stored as private as the default setting, and if they are stored as private,
+ these variables cannot be used directly in the external function. Therefore, in order to change the value of a variable stored as private in the class,
+ the member function that can change this value was declared as public in the class, and when necessary,
+ the main function called it to change the values of each variable in the class. At first, I thought this was a strange and cumbersome way,
+ but, after finishing the workshop3, I could learn if the program deals with very complex things, this class could control the values of variables in all functions
+ by changing the settings of variables in the class because they don't use variables directly in the class.

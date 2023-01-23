@@ -1,0 +1,15 @@
+
+//Name: SangWoo Shin
+// ID: 119294213
+// Email: sshin36@myseneca.ca
+//Section Information Code : NCC
+
+Through the workshop 2, I used overloading and referecces in my program. It was quite amazing to me
+that even if there are functions with same name in program, if the arguments or types of the functions were different,
+I could use overloading to distinguish each function from the main function. Moreover through the overloading,
+functions with irreplaceable names, such as read or write, could be used for each module regardless of duplication, making the program cleaner.
+Additionally, thanks for reference, by changing the variables in the function, I could change the value of the external variables.
+Lastly, through dynamic allocation, I was able to create more efficient program by allocating as much memory as I needed.
+However, after using up the memory allocated through dynamic allocation, I had to return the memory at the end, but the process
+to find appropriate location in program to declare 'delete' command was more difficult than I thought, so it took a lot of time to
+study and analyze it.
