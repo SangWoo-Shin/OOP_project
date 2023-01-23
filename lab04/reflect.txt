@@ -1,0 +1,16 @@
+// Workshop 4 part 2
+//Name: SangWoo Shin
+// ID: 119294213
+// Email: sshin36@myseneca.ca
+//Section Information Code : NCC
+// Date: 2022-02-11
+//I have done all the coding by myselfand only copied the code that my professor provided to complete my workshopsand assignments.
+
+Through the workshop 4, I used constructor and destructor which are member function in class object. constructor can initialize 
+variables which are stored in class as private. At first, when I saw the role of the constructor that initailzes the variable value
+in the class, I wondered what was different from the member function 'set' function. But after the workshop, I realized that
+the constructor can automatically initializes to the desired value at the start of the program by simply declaring it in the header file.
+Of course, the constructor can use overloading function so If I declare the constructor which require no argument and the constructor which
+need arguments in header file, I can use both of them in main function depending on how I type the arguments of the constructor.
+In order to prevent memory leaks by deleting instances, I also used the destructor in this assignment. Like the constructor, if I declare the destructor
+in the header file, then it was automatically executed after the program was over without having to call separately from the main function. 

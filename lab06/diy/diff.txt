@@ -1,0 +1,14 @@
+In line number 67 of your output:
+The output should be:
+Grounds k. Willie
+        ^
+But your output is: 
+Grounds K. Willie
+        ^
+
+Unmatched character details:
+The character in column 9 is supposed to be:
+  [k] ASCII code(107)
+but you printed
+  [K] ASCII code(75)
+

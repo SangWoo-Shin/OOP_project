@@ -1,0 +1,21 @@
+/*
+	==================================================
+	workshop 7
+	==================================================
+	Name   : Sangwoo Shin
+	ID     : 119294213
+	Email  : sshin36@myseneca,ca
+	Section: NCC
+	Date   : 2022/3/17
+*/
+
+Through the workshop 7, I needed to use inheritance to finish the task. By using inheritance, 
+I could use member functions which are located in base class's public or protected part. In order to use
+inheritance more efficiently, it was necessary to understand the operating principles of the constructor and 
+the destructor when derived class inherit base class. Moreover, it needs to understand about principle of shadowing.
+In the derived class, a function with the same name as the base class can be declared and used, which is similar to
+overloading, but differs in that all the arguments of the function are the same. Therefore, to distinguish each function,
+I could just use the shadowing function which is in derived class, but to use the function in base class, I had to write it
+with a range specifier like "Base::". Additionally, as for the constructor and the destructor in inheritance, when the constructor
+creates an object, it creates an instance of the base class first, then an instance of the derived class, and the destructor
+proceeds in reverse order of the previous order.

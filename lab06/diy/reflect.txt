@@ -1,0 +1,20 @@
+	==================================================
+	Workshop #6 (Part-2):
+	==================================================
+	Name   : Sangwoo Shin
+	ID     : 119294213
+	Email  : sshin36@myseneca,ca
+	Section: NCC
+	Date   : Mar 05, 2022
+
+  Through this workshop, it should have used an input/ output operator. By using the operator,
+An output operator that can output in the desired format was created and used in the program,
+and an input operator that receives input in the desired format was created and used. In addition,
+I used a string library in this task, and I learned about the functionality of getline() in this library.
+Moreover, I could learn about the ignore(), clear() and fail() function. Each of these functions ignore
+contents in the current buffer, initialize the internal status flag of the cin object, and returned the true value
+when an input/output error occurred. Lastly, I was able to learn more about the deep copy through this project.
+A shallow copy of an object with a dynamic allocated value caused an error as the values were deleted by
+the destructor, on the other hand, by using deep copy method, dynamic allocated values were dynamically 
+assigned to the newly created instance and copied, and as a result, the object values were copied to other
+objects without errors.

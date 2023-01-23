@@ -1,0 +1,17 @@
+// Workshop 5 part 2
+//Name: SangWoo Shin
+// ID: 119294213
+// Email: sshin36@myseneca.ca
+//Section Information Code : NCC
+// Date: 2022-02-18
+//I have done all the coding by myselfand only copied the code that my professor provided to complete my workshopsand assignments.
+
+Through the workshop 5, I used the function about overloading operator. Through this function, I could simplify
+the processing of calculation expression that can be complicated by defining new operators using overloading.
+However, when declaring overloading a new operator, symbols other than those stored as default in the compliler
+were not avaliable. Operators include conversion operator, unary operator, binary operator and ternary operator.
+Firstly, conversion operator allow me to derive the result value I intended when declaring a type in front of a varialbe.
+And a unary operator, binary operator, and ternary operator require one, two and three operands respectively.
+Finally, ther friend function could also be seen in this workshop, where if the function was declared inside the
+class in the header file, this function in cpp file could access all values and member functions in the class, inculding private values,
+without declaring it as a function within the class function.
